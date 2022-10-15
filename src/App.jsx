@@ -1,5 +1,3 @@
-
-
 import LeftAside from './components/LeftAside'
 import RightAside from './components/RightAside'
 

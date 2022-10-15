@@ -4,7 +4,17 @@ import './../styles/responsivity.css'
 
 function LeftAside() {
 	return (
-		<aside className="w-[50%] flex justify-center items-center bg-white-200" id="aside-left">
+		<aside 
+			className="
+				w-[50%]
+				min-h-[100vh] 
+				flex 
+				justify-center 
+				items-center 
+				bg-white-200
+			" 
+			id="aside-left"
+		>
 	    	<img src={asideLeft}/>
 	    </aside>
 	)
